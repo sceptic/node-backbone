@@ -1,0 +1,17 @@
+{
+  "name": "backbone",
+  "version": "0.0.0",
+  "description": "test bakbone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.6.1",
+    "mongoose": "^3.8.13",
+    "swig": "^1.4.1",
+    "underscore": "^1.6.0"
+  }
+}

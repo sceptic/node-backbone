@@ -1,0 +1,30 @@
+
+----------------------------------------------------------------------------------------------------------
+
+#Iniciar proyecto
+npm init
+
+
+#Instalar express y guardar en package.json 
+npm install express --save
+
+
+#Instalar motor de plantilla Swig y guardar en package.json 
+npm install swig --save
+
+
+#Actualizar el servidor de manera utomática al detectar un cambio en la aplicación
+sudo npm install -g supervisor
+
+  #correr servidor 
+  supervisor server_file
+
+
+#Crear directorio arbol proyecto
+mkdir public && mkdir app && cd app && mkdir controllers && mkdir routes && mkdir config && mkdir models
+mkdir views
+
+
+
+---------------------------------------------------------------------------------------------------------
+
